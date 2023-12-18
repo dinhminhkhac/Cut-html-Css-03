@@ -503,3 +503,50 @@ a {
 .control-next-icon {
     transform: rotate(180deg);
 }
+
+/* Install */
+.install {
+    padding-top: 170px;
+}
+
+.install__inner {
+    border-radius: 4px;
+    background: #2e80ce;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 70px;
+}
+
+.install__img {
+    display: block;
+    width: 284px;
+    height: 522px;
+    margin-top: -95px;
+}
+
+.install__content {
+    max-width: 586px;
+}
+
+.install__heading,
+.install__desc {
+    color: #fff;
+}
+
+.install__heading {
+    max-width: 489px;
+}
+
+.install__row {
+    margin-top: 38px;
+    display: flex;
+    column-gap: 28px;
+}
+
+.install__btn {
+    padding: 0;
+    background: transparent;
+    border: none;
+    outline: none;
+}
